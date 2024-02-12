@@ -67,4 +67,4 @@ hf_model.save_pretrained(path)
 ## Fine-tune downstream tasks
 
 ### QA tasks
-Code for RACE and Probes MCQA from this [repo]([repo](https://github.com/allenai/semantic_fragments)https://github.com/allenai/semantic_fragments).
+Code for RACE and Probes MCQA from this [repo](https://github.com/allenai/semantic_fragments).
