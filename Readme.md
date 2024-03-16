@@ -20,10 +20,10 @@ It contains scripts and notebook to create the data. We provide also the generat
 It uses as base 2 files: bansal14_trees.csv and definitions_bansal.json
 
 ## Evaluation:
-    1. Extract Representation (improve code to define exact representations - type and layers)
 
 Offline extraction of PLMs representations. First run
 > mkdir -p output/model_representations
+> 
 > python run_extract_representations.py
 
 This will save representations in model_vectors folder.
@@ -31,6 +31,7 @@ This will save representations in model_vectors folder.
 
 Once the vectors are extracted, we compute the properties accuracy with:
 > mkdir -p output/props_scores
+> 
 > python run_evaluate_props.py
 
 Define in the file .py which configurations to run.
