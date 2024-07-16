@@ -1,13 +1,32 @@
 # Hierarchy Properties Evaluation for PLMs
 
-This repository contains code and models for the paper TBA
+This repository contains code and models for the paper "Probing Pretrained Language Models with Hierarchy Properties" Findings @ ECIR 2024
+
+To cite this work, please use the following:
+```latex
+@inproceedings{lovon2024probing,
+  title={Probing Pretrained Language Models with Hierarchy Properties},
+  author={Lovon-Melgarejo, Jesus and Moreno, Jose G and Besan{\c{c}}on, Romaric and Ferret, Olivier and Tamine, Lynda},
+  booktitle={European Conference on Information Retrieval},
+  pages={126--142},
+  year={2024}
+}
+```
 
 
 ## Resources
 
 
 - [Datasets](https://drive.google.com/drive/folders/1FSqFbjfG6GkK3tQ876Ylg-duUO5vIkFN?usp=sharing) **properties** folder.
-- [Trained Models with hierarchies](https://drive.google.com/drive/folders/1rflS3vdWbrSpDO3tLeiFa-yaIM7BbzVB?usp=sharing)
+- [Trained Models with hierarchies](https://drive.google.com/drive/folders/1rflS3vdWbrSpDO3tLeiFa-yaIM7BbzVB?usp=sharing).
+
+    - HuggingFace Hub:
+      | Model | Link |
+      | --- | --- |
+      | BERT | [link](https://huggingface.co/jeslev/bert-large-with-hierarchy-properties) |
+      | RoBERTa | [link](https://huggingface.co/jeslev/roberta-large-with-hierarchy-properties) |
+      | DistilRoBERTa | [link](https://huggingface.co/jeslev/distilRoBERTa-with-hierarchy-properties) |
+      | MPNet | [link](https://huggingface.co/jeslev/mpnet-with-hierarchy-properties) |
 - Other (representations, individual scores, etc) [link](https://drive.google.com/drive/folders/1b08QHuOOWe97C7Ny4k_lbBAWZmTZtfE2?usp=sharing)
 
 -----
